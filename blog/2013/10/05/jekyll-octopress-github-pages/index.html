@@ -140,14 +140,20 @@ $(document).ready(
 
 
 	
+		<span class="comments"><a href="/blog/2013/10/05/jekyll-octopress-github-pages/#disqus_thread">Comments</a></span>
+	
 </div></article>
 
 	<div class="share">
 	<div class="addthis_toolbox addthis_default_style ">
 	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
 	
 	<a class="addthis_button_tweet"></a>
 	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
 	
 <!---	<a class="addthis_counter addthis_pill_style"></a> --->
 	</div>
@@ -155,6 +161,12 @@ $(document).ready(
 </div>
 
 
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
 </div>
 	<footer id="footer" class="inner">Copyright &copy; 2013
 <b>
@@ -171,7 +183,35 @@ Designed by <a href="carmo.org.uk"><b>carmo.org.uk</b></a>.</footer>
 </script> <!-- Delete or comment this line to disable Fancybox -->
 
 
+<script type="text/javascript">
+      var disqus_shortname = 'thisiscode';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://j-katz.net/blog/2013/10/05/jekyll-octopress-github-pages/';
+        var disqus_url = 'http://j-katz.net/blog/2013/10/05/jekyll-octopress-github-pages/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-7907817-6']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 
