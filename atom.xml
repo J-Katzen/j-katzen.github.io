@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Is This Code?]]></title>
   <link href="http://j-katz.net/atom.xml" rel="self"/>
   <link href="http://j-katz.net/"/>
-  <updated>2013-10-05T14:26:35-07:00</updated>
+  <updated>2013-10-05T19:38:35-07:00</updated>
   <id>http://j-katz.net/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Jacob Katzen]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Jekyll, Octopress, and Github Page Hosting]]></title>
+    <link href="http://j-katz.net/blog/2013/10/05/jekyll-octopress-github-pages/"/>
+    <updated>2013-10-05T13:23:00-07:00</updated>
+    <id>http://j-katz.net/blog/2013/10/05/jekyll-octopress-github-pages</id>
+    <content type="html"><![CDATA[<h3><b>Hello World!</b></h3>
+
+
+<p>Today I decided to take on the task of learning a thing or two about Jekyll, Octopress, and taking advantage of github pages to open a new blog that I&#8217;ve taken the liberty title &#8216;Is this code?&#8217;</p>
+
+
+<p>To be honest, initial setup took me a little longer than I had originally anticipated because of my lack of experience doing anything with ruby and rbenv.  For a little while, even though I had installed ruby1.9.3p448, I was still using my system&#8217;s ruby1.8.7. The rbenv versions command helped me identify which version I could quickly enable with the rbenv local command.
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>rbenv versions
+</span><span class='line'><span class="nv">$ </span>rbenv <span class="nb">local</span> <span class="o">[</span>version<span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+</p>
+
+
+<p>After that was squared away, I was off to the races. I found a nice theme which I have applied and left unmodified for now after taking a look at this <a href="http://j-katz.net//github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">list</a>. I changed the font, because I didn&#8217;t want to lay any money down for the typekit font this theme was loading, so I opted for <a href="http://j-katz.net//www.google.com/fonts">Google Web Fonts</a> because they are free and have a great selection. It also helps that Octopress has great integration with them already, which is all well-documented on their site <a href="http://j-katz.net//octopress.org/docs/theme/template/">here</a>. Basic configuration setup followed, along with some link changing and voilà, you get what you see here now.</p>
+
+]]></content>
+  </entry>
   
 </feed>

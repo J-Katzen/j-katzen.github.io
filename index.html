@@ -5,16 +5,15 @@
 	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
 	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta charset="utf-8">
-	<title>A blogging framework for hackers.  | My Octopress Blog</title>
+	<title>Life between the syntax errors.  | Is This Code?</title>
 
-<meta name="author" content="Your Name"> 
+<meta name="author" content="Jacob Katzen"> 
 
-<meta name="description" content=" Blog Archives
-"> <meta name="keywords" content="">
+<meta name="description" content="Hello World! Today I decided to take on the task of learning a thing or two about Jekyll, Octopress, and taking advantage of github pages to open a &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+	<link href="/atom.xml" rel="alternate" title="Is This Code?" type="application/atom+xml">
 	<link rel="canonical" href="">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -56,17 +55,17 @@ $(document).ready(
   }
 );
 </script>
-	
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-	<header id="header" class="inner"><h1><a href="/">My Octopress Blog</a></h1>
-<h4>A blogging framework for hackers.</h4>
+	<header id="header" class="inner"><h1><a href="/">Is This Code?</a></h1>
+<h4>Life between the syntax errors.</h4>
 <nav id="main-nav"><ul>
 	<li><a href="/">Blog</a></li>
 	<li><a href="/about">About</a></li>
-	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="//www.flickr.com/photos/alto50/">Flickr</a></li>
 	<li><a href="/archives">Archive</a></li>
 </ul>
 </nav>
@@ -76,7 +75,7 @@ $(document).ready(
 		<div class="container"><ul>
 	<li><a href="/">Blog</a></li>
 	<li><a href="/about">About</a></li>
-	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="//www.flickr.com/photos/alto50/">Flickr</a></li>
 	<li><a href="/archives">Archive</a></li>
 </ul>
 </div>
@@ -97,18 +96,77 @@ $(document).ready(
 
 	<div id="content" class="inner">
 
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/10/05/jekyll-octopress-github-pages/">
+		
+			Jekyll, Octopress, and Github Page Hosting</a>
+	</h2>
+	<div class="entry-content">
+		<h3><b>Hello World!</b></h3>
+
+
+<p>Today I decided to take on the task of learning a thing or two about Jekyll, Octopress, and taking advantage of github pages to open a new blog that I&#8217;ve taken the liberty title &#8216;Is this code?&#8217;</p>
+
+
+<p>To be honest, initial setup took me a little longer than I had originally anticipated because of my lack of experience doing anything with ruby and rbenv.  For a little while, even though I had installed ruby1.9.3p448, I was still using my system&#8217;s ruby1.8.7. The rbenv versions command helped me identify which version I could quickly enable with the rbenv local command.
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>rbenv versions
+</span><span class='line'><span class="nv">$ </span>rbenv <span class="nb">local</span> <span class="o">[</span>version<span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+</p>
+
+
+<p>After that was squared away, I was off to the races. I found a nice theme which I have applied and left unmodified for now after taking a look at this <a href="//github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">list</a>. I changed the font, because I didn&#8217;t want to lay any money down for the typekit font this theme was loading, so I opted for <a href="//www.google.com/fonts">Google Web Fonts</a> because they are free and have a great selection. It also helps that Octopress has great integration with them already, which is all well-documented on their site <a href="//octopress.org/docs/theme/template/">here</a>. Basic configuration setup followed, along with some link changing and voilà, you get what you see here now.</p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-05T13:23:00-07:00" pubdate data-updated="true">Oct 5<span>th</span>, 2013</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/code/'>code</a>
+
+</div>
+
+
+	
+		<span class="comments"><a href="/blog/2013/10/05/jekyll-octopress-github-pages//index.html#disqus_thread">Comments</a></span>
+	
+</div></article>
+
 <nav id="pagenavi">
     
     
     <div class="center"><a href="/archives">Blog Archives</a></div>
 </nav></div>
 	<footer id="footer" class="inner">Copyright &copy; 2013
+<b>
+    Jacob Katzen</b>.
 
-    Your Name
-
-<br>
-Powered by Octopress.
-</footer>
+Powered by <a href="octopress.org"><b>Octopress</b></a>. 
+Designed by <a href="carmo.org.uk"><b>carmo.org.uk</b></a>.</footer>
 	<script src="/javascripts/slash.js"></script>
 <script src="/javascripts/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
@@ -118,7 +176,32 @@ Powered by Octopress.
 </script> <!-- Delete or comment this line to disable Fancybox -->
 
 
+<script type="text/javascript">
+      var disqus_shortname = 'thisiscode';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-7907817-6']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 
