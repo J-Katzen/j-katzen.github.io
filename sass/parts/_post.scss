@@ -40,6 +40,7 @@
 		.date, .tags, .comments{
 			padding-left: 30px;
 			position: relative;
+			display: block;
 			&:before{
 				color: $color-gray01;
 				font: 1.3em $font-icon;
